@@ -19,7 +19,7 @@ h1{
     */
 }
 a{
-    background-color: blueviolet ;
+    background-color: yellowgreen ;
 }
 section{
     padding: 10px;
@@ -50,3 +50,7 @@ table{
     height:auto;  
 width:100px;
 } */
+
+span:hover{
+    cursor:pointer;
+}

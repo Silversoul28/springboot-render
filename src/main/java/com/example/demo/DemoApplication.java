@@ -27,3 +27,9 @@ public class DemoApplication {
 
 //start.spring.io
 //docker maven openjdk 17
+
+//docker build -t renderapp .
+//docker images
+//docker run -p 8080:8080 "name"
+
+//ctrl+c to exit

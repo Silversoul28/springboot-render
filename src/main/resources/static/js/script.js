@@ -58,11 +58,11 @@
 // person.speak('hello')
 
 
- var t = document.getElementById("fname")
+//  var t = document.getElementById("fname")
 
- t.value="Brook"
+//  t.value="Brook"
 
-console.log(t.name)
+// console.log(t.name)
 
 // var c = document.querySelector('input[value="FULLSEND"]')
 
@@ -70,12 +70,15 @@ console.log(t.name)
 
 // console.log(td[0])
 
+ //callback
+function processKey(evt){
+    console.log(evt.key)
+   }
+
  window.addEventListener("keypress", processKey)
 
- //callback
- function processKey(evt){
- console.log(evt.key)
-}
+
+
 
 var button = document.querySelector('input[value="FULLSEND"]')//grab the submit button
 button.addEventListener('click', function(evt){
@@ -84,7 +87,4 @@ button.addEventListener('click', function(evt){
     console.log(document.getElementsByTagName("legend")[0].innerHTML)
     document.getElementsByTagName('legend')[0].innerHTML = text
 })
-
-
-
 
