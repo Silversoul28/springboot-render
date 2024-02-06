@@ -33,3 +33,8 @@ public class DemoApplication {
 //docker run -p 8080:8080 "name"
 
 //ctrl+c to exit
+
+
+// setting up spring boot
+// shift command p
+//>Spring
